@@ -1,24 +1,41 @@
+import java.util.Scanner;
+
 public class mainChallenge {
 
-    public static void main(String[] args) {
-
-        double firstHeight = convertToCentimeters(5);
-        System.out.println("The height is " + firstHeight);
-
-        double secondHeight = convertToCentimeters(6, 7);
-        System.out.println("The height is " + secondHeight);
-
+    public static void main()
+    {
+        getDurationString(3665);
+        getDurationString(67, 15);
+        getDurationString(-1);
+        getDurationString(-1, -1);
     }
 
-    public static double convertToCentimeters(int inches) {
+    public static void getDurationString(int seconds) {
 
-        return 2.54 * inches;
+        if (seconds <= 0) {
+            System.out.println("Invalid duration");
+        }
+        else {
+
+            int hours = seconds / 3600;
+            int minutes = (seconds % 3600) / 60;
+            int second = seconds % 60;
+
+
+            System.out.println(hours + "h " + minutes + "m " + second + "s");
+        }
     }
 
-    public static double convertToCentimeters(int feet, int inches) {
+    public static void getDurationString(int minutes, int seconds) {
 
-        int feetToInches = feet * 12 + inches;
+        if (minutes <= 0 && seconds <= 0) {
+            System.out.println("Invalid duration");
+        }
+        else {
 
-        return convertToCentimeters(feetToInches);
+            int convertedSeconds = minutes * 60 + seconds;
+
+            getDurationString(convertedSeconds);
+        }
     }
 }
