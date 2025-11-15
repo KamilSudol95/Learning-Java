@@ -1,32 +1,35 @@
 public class Main {
 
-    public static void main(String [] args) {
+    public static void main (String[] args) {
 
-        int newScore = calculateScore("Tim", 500);
-        System.out.println("New score is " + newScore);
+        int value = 1;
+        if (value == 1) {
+            System.out.println("Value was 1");
+        }
+        else if (value == 2) {
+            System.out.println("Value was 2");
+        }
+        else {
+            System.out.println("Value was neither 1 nor 2");
+        }
 
-        calculateScore(75);
-        calculateScore();
+        int switchValue = 1;
 
+        switch (switchValue) {
+            case 1:
+                System.out.println("Value was 1");
+                break;
+            case 2:
+                System.out.println("Value was 2");
+                break;
+            default:
+                System.out.println("Value was neither 1 nor 2");
+                break;
 
+        }
     }
-    public static int calculateScore(String playerName, int score){
 
-        System.out.println("Player " + playerName + " scored " + score + " points");
-        return score * 1000;
 
-    }
-    public static int calculateScore( int score){
-
-        return calculateScore("Anonymous", score);
-
-    }
-    public static int calculateScore(){
-
-        System.out.println("Unnamed player no player scored points");
-        return 0;
-
-    }
 
 
 }

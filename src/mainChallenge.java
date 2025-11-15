@@ -1,41 +1,44 @@
-import java.util.Scanner;
 
 public class mainChallenge {
 
-    public static void main()
-    {
-        getDurationString(3665);
-        getDurationString(67, 15);
-        getDurationString(-1);
-        getDurationString(-1, -1);
+    public static void main(String[] args) {
+
+        switchChallenge('1');
     }
 
-    public static void getDurationString(int seconds) {
+    public static void switchChallenge(char letter){
 
-        if (seconds <= 0) {
-            System.out.println("Invalid duration");
-        }
-        else {
+        switch(letter){
 
-            int hours = seconds / 3600;
-            int minutes = (seconds % 3600) / 60;
-            int second = seconds % 60;
-
-
-            System.out.println(hours + "h " + minutes + "m " + second + "s");
+            case 'A' -> System.out.println("Able");
+            case 'B' -> System.out.println("Baker");
+            case 'C' -> System.out.println("Charlie");
+            case 'D' -> System.out.println("Dog");
+            case 'E' -> System.out.println("Easy");
+            case 'F' -> System.out.println("Fox");
+            case 'G' -> System.out.println("George");
+            case 'H' -> System.out.println("How");
+            case 'I' -> System.out.println("Item");
+            case 'J' -> System.out.println("Jig");
+            case 'K' -> System.out.println("King");
+            case 'L' -> System.out.println("Love");
+            case 'M' -> System.out.println("Mike");
+            case 'N' -> System.out.println("Nan");
+            case 'O' -> System.out.println("Oboe");
+            case 'P' -> System.out.println("Peter");
+            case 'Q' -> System.out.println("Queen");
+            case 'R' -> System.out.println("Roger");
+            case 'S' -> System.out.println("Sugar");
+            case 'T' -> System.out.println("Tare");
+            case 'U' -> System.out.println("Uncle");
+            case 'V' -> System.out.println("Victor");
+            case 'W' -> System.out.println("William");
+            case 'X' -> System.out.println("Xray");
+            case 'Y' -> System.out.println("York");
+            case 'Z' -> System.out.println("Zebra");
+            default -> System.out.println("Invalid Letter");
         }
     }
 
-    public static void getDurationString(int minutes, int seconds) {
 
-        if (minutes <= 0 && seconds <= 0) {
-            System.out.println("Invalid duration");
-        }
-        else {
-
-            int convertedSeconds = minutes * 60 + seconds;
-
-            getDurationString(convertedSeconds);
-        }
-    }
 }
