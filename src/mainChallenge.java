@@ -3,42 +3,21 @@ public class mainChallenge {
 
     public static void main(String[] args) {
 
-        switchChallenge('1');
+        printDayOfWeek(0);
     }
 
-    public static void switchChallenge(char letter){
+    public static void printDayOfWeek(int day) {
 
-        switch(letter){
+        switch(day) {
 
-            case 'A' -> System.out.println("Able");
-            case 'B' -> System.out.println("Baker");
-            case 'C' -> System.out.println("Charlie");
-            case 'D' -> System.out.println("Dog");
-            case 'E' -> System.out.println("Easy");
-            case 'F' -> System.out.println("Fox");
-            case 'G' -> System.out.println("George");
-            case 'H' -> System.out.println("How");
-            case 'I' -> System.out.println("Item");
-            case 'J' -> System.out.println("Jig");
-            case 'K' -> System.out.println("King");
-            case 'L' -> System.out.println("Love");
-            case 'M' -> System.out.println("Mike");
-            case 'N' -> System.out.println("Nan");
-            case 'O' -> System.out.println("Oboe");
-            case 'P' -> System.out.println("Peter");
-            case 'Q' -> System.out.println("Queen");
-            case 'R' -> System.out.println("Roger");
-            case 'S' -> System.out.println("Sugar");
-            case 'T' -> System.out.println("Tare");
-            case 'U' -> System.out.println("Uncle");
-            case 'V' -> System.out.println("Victor");
-            case 'W' -> System.out.println("William");
-            case 'X' -> System.out.println("Xray");
-            case 'Y' -> System.out.println("York");
-            case 'Z' -> System.out.println("Zebra");
-            default -> System.out.println("Invalid Letter");
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("Invalid day");
         }
     }
-
-
 }
