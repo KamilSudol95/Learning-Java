@@ -3,33 +3,26 @@ public class mainChallenge {
 
     public static void main(String[] args) {
 
-        int primeCounter = 0;
+        int divisableCounter = 0;
+        int sum = 0;
 
         for (int i = 1; i <= 1000; i++){
-
-            if (isPrime(i)){
-                System.out.println(i + " is " + (isPrime(i) ? "" : "NOT ") + "a prime number.");
-                primeCounter++;
+            if(dividableNumber(i)){
+                divisableCounter++;
+                sum += i;
+                System.out.println(i);
             }
-            if(primeCounter == 3){
+            if(divisableCounter == 5){
+                System.out.println("Threshold of 5 dividable numbers reached.");
                 break;
             }
         }
+        System.out.println("Sum of all dividable numbers: " + sum);
     }
 
-    public static boolean isPrime(int wholeNumber){
+    public static boolean dividableNumber(int number){
 
-        if (wholeNumber <= 2){
-            return (wholeNumber == 2);
-        }
-
-        for (int divisor = 2; divisor <= wholeNumber / 2; divisor++){
-            if (wholeNumber % divisor == 0){
-                return false;
-            }
-        }
-
-        return true;
+        return number % 3 == 0 && number % 5 == 0;
     }
 
 }
