@@ -1,35 +1,15 @@
 public class Main {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
-        int value = 1;
-        if (value == 1) {
-            System.out.println("Value was 1");
-        }
-        else if (value == 2) {
-            System.out.println("Value was 2");
-        }
-        else {
-            System.out.println("Value was neither 1 nor 2");
-        }
-
-        int switchValue = 1;
-
-        switch (switchValue) {
-            case 1:
-                System.out.println("Value was 1");
-                break;
-            case 2:
-                System.out.println("Value was 2");
-                break;
-            default:
-                System.out.println("Value was neither 1 nor 2");
-                break;
-
+        for (double rate = 7.5; rate <=10; rate += 0.25){
+            double interestAmount = calculateInterest(100, rate);
+            System.out.println("100 at " + rate + "% interest = " + interestAmount);
         }
     }
 
+    public static double calculateInterest(double amount, double interestRate){
 
-
-
+        return (amount * (interestRate / 100));
+    }
 }
