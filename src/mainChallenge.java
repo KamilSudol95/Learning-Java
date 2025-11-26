@@ -3,21 +3,33 @@ public class mainChallenge {
 
     public static void main(String[] args) {
 
-        printDayOfWeek(0);
-    }
+        int primeCounter = 0;
 
-    public static void printDayOfWeek(int day) {
+        for (int i = 1; i <= 1000; i++){
 
-        switch(day) {
-
-            case 1 -> System.out.println("Monday");
-            case 2 -> System.out.println("Tuesday");
-            case 3 -> System.out.println("Wednesday");
-            case 4 -> System.out.println("Thursday");
-            case 5 -> System.out.println("Friday");
-            case 6 -> System.out.println("Saturday");
-            case 7 -> System.out.println("Sunday");
-            default -> System.out.println("Invalid day");
+            if (isPrime(i)){
+                System.out.println(i + " is " + (isPrime(i) ? "" : "NOT ") + "a prime number.");
+                primeCounter++;
+            }
+            if(primeCounter == 3){
+                break;
+            }
         }
     }
+
+    public static boolean isPrime(int wholeNumber){
+
+        if (wholeNumber <= 2){
+            return (wholeNumber == 2);
+        }
+
+        for (int divisor = 2; divisor <= wholeNumber / 2; divisor++){
+            if (wholeNumber % divisor == 0){
+                return false;
+            }
+        }
+
+        return true;
+    }
+
 }
