@@ -2,14 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        for (double rate = 7.5; rate <=10; rate += 0.25){
-            double interestAmount = calculateInterest(100, rate);
-            System.out.println("100 at " + rate + "% interest = " + interestAmount);
+        for (int i = 1; i <= 5; i++){
+            System.out.println(i);
         }
-    }
-
-    public static double calculateInterest(double amount, double interestRate){
-
-        return (amount * (interestRate / 100));
+        int j = 1;
+        while (true){
+            if(j > 5) {
+                break;
+            }
+            System.out.println(j);
+            j++;
+        }
     }
 }

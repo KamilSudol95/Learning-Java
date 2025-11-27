@@ -2,27 +2,18 @@
 public class mainChallenge {
 
     public static void main(String[] args) {
-
-        int divisableCounter = 0;
-        int sum = 0;
-
-        for (int i = 1; i <= 1000; i++){
-            if(dividableNumber(i)){
-                divisableCounter++;
-                sum += i;
-                System.out.println(i);
+        int number = 5;
+        while (number <= 20) {
+            if (isEvenNumber(number)) {
+                System.out.println(number + " is even number");
+            } else {
+                System.out.println(number + " is odd number");
             }
-            if(divisableCounter == 5){
-                System.out.println("Threshold of 5 dividable numbers reached.");
-                break;
-            }
+            number++;
         }
-        System.out.println("Sum of all dividable numbers: " + sum);
     }
+    public static boolean isEvenNumber(int number) {
 
-    public static boolean dividableNumber(int number){
-
-        return number % 3 == 0 && number % 5 == 0;
+        return number % 2 == 0;
     }
-
 }
