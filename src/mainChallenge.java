@@ -2,33 +2,31 @@
 public class mainChallenge {
 
     public static void main(String[] args) {
-        System.out.println(hasSharedDigit(12, 23));
-        System.out.println(hasSharedDigit(9, 99));
-        System.out.println(hasSharedDigit(15, 55));
+
+        System.out.println(hasSameLastDigit(41, 22, 71));
+        System.out.println(hasSameLastDigit(23, 32, 42));
+        System.out.println(hasSameLastDigit(9, 99, 999));
 
     }
 
-    public static boolean hasSharedDigit (int number1, int number2){
+    public static boolean hasSameLastDigit(int num1, int num2, int num3){
 
-        int comparisionDigit;
+        int lastDigit1 = num1 % 10;
+        int lastDigit2 = num2 % 10;
+        int lastDigit3 = num3 % 10;
 
-        if (number1 < 10 || number2 < 10 || number1 > 99 || number2 > 99){
+        if(num1 < 10 || num2 < 10 || num3 < 10 || num1 > 1000 || num2 > 1000 || num3 > 1000){
             return false;
         }
 
-        while(number1 >0){
-            int digit1 = number1 % 10;
-            comparisionDigit = number2;
+        return lastDigit1 == lastDigit2 || lastDigit2 == lastDigit3 || lastDigit1 == lastDigit3;
+    }
 
-            while(comparisionDigit > 0){
-                int digit2 = comparisionDigit % 10;
-                if(digit1 == digit2){
-                    return true;
-                }
-                comparisionDigit /= 10;
-            }
-            number1 /= 10;
+    public static boolean isValid(int number){
+
+        if (number < 10 || number > 1000){
+            return false;
         }
-        return false;
+        return true;
     }
 }
