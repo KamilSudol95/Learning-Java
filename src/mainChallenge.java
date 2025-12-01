@@ -3,27 +3,26 @@ public class mainChallenge {
 
     public static void main(String[] args) {
 
-        System.out.println(getGreatestCommonDivisor(25, 15));
-        System.out.println(getGreatestCommonDivisor(12, 30));
-        System.out.println(getGreatestCommonDivisor(9, 18));
-        System.out.println(getGreatestCommonDivisor(81, 153));
+        System.out.println(isPerfectNumber(6));
+        System.out.println(isPerfectNumber(28));
+        System.out.println(isPerfectNumber(5));
+        System.out.println(isPerfectNumber(-1));
 
     }
 
-    public static int getGreatestCommonDivisor(int first, int second){
+    public static boolean isPerfectNumber(int number){
 
-        if (first < 10 || second < 10) {
-            return -1;
+        int sum = 0;
+
+        if (number < 1){
+            return false;
         }
 
-        int biggestDivider = 0;
-
-        for (int i = 1; i <= first && i <= second; i++) {
-            if (first % i == 0 && second % i == 0) {
-                biggestDivider = i;
+        for (int i = 1; i < number; i++){
+            if(number % i == 0){
+                sum += i;
             }
-
         }
-        return biggestDivider;
+        return sum == number;
     }
 }
