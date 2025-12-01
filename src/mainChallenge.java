@@ -2,27 +2,28 @@
 public class mainChallenge {
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome(-222));
-
+        System.out.println(sumFirstAndLastDigit(252));
+        System.out.println(sumFirstAndLastDigit(257));
+        System.out.println(sumFirstAndLastDigit(0));
+        System.out.println(sumFirstAndLastDigit(5));
+        System.out.println(sumFirstAndLastDigit(-10));
     }
 
-    public static boolean isPalindrome(int number) {
-
-        int ogNumber = number;
-        int reverseNumber = 0;
+    public static int sumFirstAndLastDigit(int number) {
 
         if (number < 0) {
-            number = -number;
-            ogNumber = number;
+            return -1;
         }
 
-        while (number != 0) {
+        int firstDigit = number % 10;
+        int lastDigit = number;
 
-            int lastDigit = number % 10;
-            reverseNumber = reverseNumber * 10 + lastDigit;
-            number /=10;
+        while (number > 9){
+
+            number /= 10;
+            lastDigit = number % 10;
+
         }
-
-        return reverseNumber == ogNumber;
+        return firstDigit + lastDigit;
     }
 }
