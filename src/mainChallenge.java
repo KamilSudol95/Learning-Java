@@ -3,38 +3,28 @@ public class mainChallenge {
 
     public static void main(String[] args) {
 
-        System.out.println(getLargestPrime(21));
-        System.out.println(getLargestPrime(217));
-        System.out.println(getLargestPrime(0));
-        System.out.println(getLargestPrime(45));
-        System.out.println(getLargestPrime(-1));
-        System.out.println(getLargestPrime(1));
+        printSquareStar(5);
+
     }
 
-    public static int getLargestPrime(int number){
+    public static void printSquareStar(int number) {
 
-        int largestPrime = 1;
-        boolean isPrime = true;
-
-        if(number <= 1) return -1;
-
-        for (int i = 2; i <= number; i++){
-            if(number % i == 0){
-
-                for (int j = 2; j < i; j++){
-                    if(i % j == 0){
-                        isPrime = false;
-                        break;
-                    }
-                }
-
-                if(isPrime){
-                    largestPrime = i;
-                }
-            }
+        if (number < 5) {
+            System.out.println("Invalid Value");
+            return;
         }
 
-        return largestPrime;
+        for (int row = 1; row <= number; row++) {
+            for (int col = 1; col <= number; col++) {
 
+                if (row == 1 || row == number || col == 1 || col == number || row == col || col == (number - row + 1)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
+
