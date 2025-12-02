@@ -2,31 +2,39 @@
 public class mainChallenge {
 
     public static void main(String[] args) {
-        System.out.println(canPack(1, 0, 4));
-        System.out.println(canPack(1, 0, 5));
-        System.out.println(canPack(0, 5, 4));
-        System.out.println(canPack(2, 2, 11));
-        System.out.println(canPack(-3, 2, 12));
-        System.out.println(canPack(5, 3, 24));
+
+        System.out.println(getLargestPrime(21));
+        System.out.println(getLargestPrime(217));
+        System.out.println(getLargestPrime(0));
+        System.out.println(getLargestPrime(45));
+        System.out.println(getLargestPrime(-1));
+        System.out.println(getLargestPrime(1));
     }
 
-    public static boolean canPack(int bigCount, int smallCount, int goal) {
+    public static int getLargestPrime(int number){
 
-        int maxBigBag = goal / 5;
-        int bigUsed;
-        int remainder;
+        int largestPrime = 1;
+        boolean isPrime = true;
 
-        if(bigCount < 0 || smallCount < 0 || goal < 0) return false;
+        if(number <= 1) return -1;
 
-        if (bigCount > maxBigBag){
-            bigUsed = maxBigBag;
+        for (int i = 2; i <= number; i++){
+            if(number % i == 0){
+
+                for (int j = 2; j < i; j++){
+                    if(i % j == 0){
+                        isPrime = false;
+                        break;
+                    }
+                }
+
+                if(isPrime){
+                    largestPrime = i;
+                }
+            }
         }
-        else {
-            bigUsed = bigCount;
-        }
 
-        remainder = goal - bigUsed * 5;
+        return largestPrime;
 
-        return smallCount >= remainder;
     }
 }
