@@ -1,30 +1,29 @@
+import java.util.Scanner;
 
-public class mainChallenge {
+void main() {
 
-    public static void main(String[] args) {
+    int counter = 1;
+    int sum = 0;
 
-        printSquareStar(5);
+    Scanner scanner = new Scanner(System.in);
 
-    }
+    while (counter <= 5){
 
-    public static void printSquareStar(int number) {
+        System.out.println("Please enter number #" + counter);
 
-        if (number < 5) {
-            System.out.println("Invalid Value");
-            return;
-        }
+        try {
 
-        for (int row = 1; row <= number; row++) {
-            for (int col = 1; col <= number; col++) {
+            int currentNum = Integer.parseInt(scanner.nextLine());
+            counter++;
+            sum += currentNum;
 
-                if (row == 1 || row == number || col == 1 || col == number || row == col || col == (number - row + 1)) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
+        } catch (NumberFormatException e) {
+
+            System.out.println("Invalid input, please try again.");
         }
     }
+        System.out.println("The sum of the numbers is: " + sum);
+        scanner.close();
+
 }
 
