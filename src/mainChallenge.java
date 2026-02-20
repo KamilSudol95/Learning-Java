@@ -2,28 +2,34 @@ import java.util.Scanner;
 
 void main() {
 
-    int counter = 1;
-    int sum = 0;
-
     Scanner scanner = new Scanner(System.in);
 
-    while (counter <= 5){
+    double max = 0;
+    double min = 0;
+    int loopCounter = 0;
 
-        System.out.println("Please enter number #" + counter);
+    while (true) {
+        System.out.println("Enter a number, or any character to exit:");
+        String nextEntry = scanner.nextLine();
 
-        try {
+        try{
+            double validNum = Double.parseDouble(nextEntry);
 
-            int currentNum = Integer.parseInt(scanner.nextLine());
-            counter++;
-            sum += currentNum;
-
+            if (validNum > max || loopCounter == 0) {
+                max = validNum;
+            }
+            if (validNum < min || loopCounter == 0) {
+                min = validNum;
+            }
+            loopCounter++;
         } catch (NumberFormatException e) {
-
-            System.out.println("Invalid input, please try again.");
+            break;
         }
+    } if (loopCounter > 0) {
+        System.out.println("Max: " + max + " Min: " + min);
+    } else {
+        System.out.println("No numbers entered.");
     }
-        System.out.println("The sum of the numbers is: " + sum);
-        scanner.close();
 
 }
 
