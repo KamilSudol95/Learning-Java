@@ -1,35 +1,26 @@
-import java.util.Scanner;
 
-void main() {
+public class mainChallenge {
 
-    Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
 
-    double max = 0;
-    double min = 0;
-    int loopCounter = 0;
+        BankAccount account = new BankAccount();
 
-    while (true) {
-        System.out.println("Enter a number, or any character to exit:");
-        String nextEntry = scanner.nextLine();
+        account.setAccountNumber( 123456789);
+        account.setBalance(1000.00);
+        account.setCustomerName("Kamil Sudol");
+        account.setEmail("test@gmail.com");
+        account.setPhoneNumber("112554665");
 
-        try{
-            double validNum = Double.parseDouble(nextEntry);
+        System.out.println(account.getAccountNumber());
+        System.out.println(account.getBalance());
+        System.out.println(account.getCustomerName ());
+        System.out.println(account.getEmail());
+        System.out.println(account.getPhoneNumber());
 
-            if (validNum > max || loopCounter == 0) {
-                max = validNum;
-            }
-            if (validNum < min || loopCounter == 0) {
-                min = validNum;
-            }
-            loopCounter++;
-        } catch (NumberFormatException e) {
-            break;
-        }
-    } if (loopCounter > 0) {
-        System.out.println("Max: " + max + " Min: " + min);
-    } else {
-        System.out.println("No numbers entered.");
+
+        account.deposit(500.00);
+        account.withdraw(250.00);
+        account.withdraw(1500.00);
+
     }
-
 }
-
