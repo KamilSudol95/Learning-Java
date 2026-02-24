@@ -2,18 +2,47 @@ public class Main {
 
     static void main(String[] args) {
 
-        Car car = new Car();
+        for (int i = 1; i <= 5; i++) {
+            Student s = new Student(
+                    "S92300" + i,
+                    switch (i) {
+                        case 1 -> "Mary";
+                        case 2 -> "Carol";
+                        case 3 -> "Tim";
+                        case 4 -> "Harry";
+                        case 5 -> "Lisa";
+                        default -> "Anonymouse";
 
-        car.setMake("Porsche");
-        car.setModel("911");
-        car.setColor("Green");
-        car.setDoors(2);
-        car.setConvertible(false);
+                    },
+                    "05/11/1985",
+                    "Java Masterclass"
+            );
 
-        System.out.println("make = " + car.getMake());
-        System.out.println("model = " + car.getModel());
+            System.out.println(s);
+        }
 
-        car.describeCar();
+        Student pojoStudent = new Student(
+                "S923006",
+                "Ann",
+                "05/11/1985",
+                "Java Masterclass"
+        );
+
+        LPAStudent recordStudent = new LPAStudent(
+                "S923007",
+                "Bill",
+                "05/11/1985",
+                "Java Masterclass"
+        );
+
+        System.out.println(pojoStudent);
+        System.out.println(recordStudent);
+
+        pojoStudent.setClassList(pojoStudent.getClassList() + ", Python Masterclass");
+//        recordStudent.setClassList(recordStudent.classList() + ", Python Masterclass");
+
+        System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClassList());
+        System.out.println(recordStudent.name() + " is taking " + recordStudent.classList());
 
     }
 }
