@@ -1,12 +1,12 @@
 public class Animal {
 
-    public Animal() {
-
-    }
-
     private String type;
     private String size;
     private double weight;
+
+    public Animal() {
+
+    }
 
     public Animal(String type, String size, double weight) {
         this.type = type;
@@ -24,11 +24,11 @@ public class Animal {
     }
 
     public void move(String speed) {
-        System.out.println("Animal is moving at " + speed);
+        System.out.println(type + " moves " + speed);
     }
 
     public void makeNoise() {
-        System.out.println(type + "makes some kind of noise");
+        System.out.println(type + " makes some kind of noise");
     }
 }
 
