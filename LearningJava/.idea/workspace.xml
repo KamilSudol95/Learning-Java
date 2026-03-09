@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fad284f-ed32-4a9d-9103-bb6b52e7becb" name="Changes" comment="Java - POJO + record" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KamilSudol95&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KamilSudol95/Learning-Java.git&quot;,
+    &quot;accountId&quot;: &quot;4e49b06a-1be8-4dd2-a009-f1dba7ec1691&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35TfTui98kAt62B05OYh1Y54dGn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamil/Desktop/Github/Java-Portfolio/LearningJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamil\Desktop\Github\Java-Portfolio\LearningJava\src" />
+      <recent name="C:\Users\kamil\Desktop\Github\Java-Portfolio\LearningJava\7-Mastering Java OOP - Classes &amp; Inheritance" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fad284f-ed32-4a9d-9103-bb6b52e7becb" name="Changes" comment="" />
+      <created>1763138993561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763138993561</updated>
+      <workItem from="1763138994911" duration="9038000" />
+      <workItem from="1763226341597" duration="6374000" />
+      <workItem from="1764173401824" duration="7235000" />
+      <workItem from="1764182608689" duration="12000" />
+      <workItem from="1764182633487" duration="15000" />
+      <workItem from="1764261234571" duration="7940000" />
+      <workItem from="1764606726758" duration="9881000" />
+      <workItem from="1764693037829" duration="5682000" />
+      <workItem from="1765229699692" duration="3000" />
+      <workItem from="1771182849856" duration="38000" />
+      <workItem from="1771609556514" duration="4199000" />
+      <workItem from="1771614788226" duration="5071000" />
+      <workItem from="1771762075742" duration="5310000" />
+      <workItem from="1771880370268" duration="1000" />
+      <workItem from="1771880385070" duration="5322000" />
+      <workItem from="1771953625075" duration="7115000" />
+      <workItem from="1772215546026" duration="2495000" />
+      <workItem from="1772572319305" duration="979000" />
+      <workItem from="1773074524820" duration="1458000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1763141563211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763141563211</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1763141657277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763141657277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1763141728660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763141728660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1763143532298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763143532298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Case statement challenge">
+      <option name="closed" value="true" />
+      <created>1763232285696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763232285696</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2nd case statement challenge">
+      <option name="closed" value="true" />
+      <created>1763233090178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763233090178</updated>
+    </task>
+    <task id="LOCAL-00007" summary="for loop exercise">
+      <option name="closed" value="true" />
+      <created>1764175287583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764175287583</updated>
+    </task>
+    <task id="LOCAL-00008" summary="for loop challenge">
+      <option name="closed" value="true" />
+      <created>1764177730688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764177730688</updated>
+    </task>
+    <task id="LOCAL-00009" summary="for loop challenge 2">
+      <option name="closed" value="true" />
+      <created>1764178379232</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764178379232</updated>
+    </task>
+    <task id="LOCAL-00010" summary="while loop example + challenge">
+      <option name="closed" value="true" />
+      <created>1764263209373</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764263209373</updated>
+    </task>
+    <task id="LOCAL-00011" summary="another while loop challenge">
+      <option name="closed" value="true" />
+      <created>1764265193674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764265193674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="while loop challenge - adding sum of digits without len etc.">
+      <option name="closed" value="true" />
+      <created>1764269058563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764269058563</updated>
+    </task>
+    <task id="LOCAL-00013" summary="another while loop excercise challenge :)">
+      <option name="closed" value="true" />
+      <created>1764610855301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764610855301</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2nd while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764612270698</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764612270698</updated>
+    </task>
+    <task id="LOCAL-00015" summary="3rd while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764612747560</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764612747560</updated>
+    </task>
+    <task id="LOCAL-00016" summary="4th while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764613535728</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764613535728</updated>
+    </task>
+    <task id="LOCAL-00017" summary="5th while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764614258518</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1764614258518</updated>
+    </task>
+    <task id="LOCAL-00018" summary="6th while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764614830790</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1764614830790</updated>
+    </task>
+    <task id="LOCAL-00019" summary="7th while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764615177559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1764615177559</updated>
+    </task>
+    <task id="LOCAL-00020" summary="8th while loop excercise challenge for 1st of December">
+      <option name="closed" value="true" />
+      <created>1764615471085</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764615471085</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Advanced while loop challenge for 2nd of December">
+      <option name="closed" value="true" />
+      <created>1764694918500</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1764694918500</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2nd challenge for Java Masterclass on 2nd of December">
+      <option name="closed" value="true" />
+      <created>1764696769568</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1764696769568</updated>
+    </task>
+    <task id="LOCAL-00023" summary="3rd challenge for Java Masterclass on 2nd of December">
+      <option name="closed" value="true" />
+      <created>1764697741120</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1764697741120</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Star Pattern challenge.... for Java Masterclass on 2nd of December">
+      <option name="closed" value="true" />
+      <created>1764698724918</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1764698724918</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Parsing Values and Reading Console Input system.console() Overview">
+      <option name="closed" value="true" />
+      <created>1771615628331</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1771615628331</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Reading User Input Challenge">
+      <option name="closed" value="true" />
+      <created>1771618677046</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1771618677046</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Identifying Min and Max Values off users' input Challenge">
+      <option name="closed" value="true" />
+      <created>1771619484485</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1771619484485</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Basic of OOP in JAVA - Getters, Setters and Encapsulation">
+      <option name="closed" value="true" />
+      <created>1771765282152</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1771765282152</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Java Classes - first challenge">
+      <option name="closed" value="true" />
+      <created>1771766216499</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1771766216499</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Java - constructors">
+      <option name="closed" value="true" />
+      <created>1771884282751</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1771884282751</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Java - constructors challenge">
+      <option name="closed" value="true" />
+      <created>1771885771655</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1771885771655</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Java - POJO + record">
+      <option name="closed" value="true" />
+      <created>1771958121698</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1771958121698</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="for loop challenge" />
+    <MESSAGE value="for loop challenge 2" />
+    <MESSAGE value="while loop example + challenge" />
+    <MESSAGE value="another while loop challenge" />
+    <MESSAGE value="while loop challenge - adding sum of digits without len etc." />
+    <MESSAGE value="another while loop excercise challenge :)" />
+    <MESSAGE value="2nd while loop excercise challenge for 1st of December" />
+    <MESSAGE value="3rd while loop excercise challenge for 1st of December" />
+    <MESSAGE value="4th while loop excercise challenge for 1st of December" />
+    <MESSAGE value="5th while loop excercise challenge for 1st of December" />
+    <MESSAGE value="6th while loop excercise challenge for 1st of December" />
+    <MESSAGE value="7th while loop excercise challenge for 1st of December" />
+    <MESSAGE value="8th while loop excercise challenge for 1st of December" />
+    <MESSAGE value="Advanced while loop challenge for 2nd of December" />
+    <MESSAGE value="2nd challenge for Java Masterclass on 2nd of December" />
+    <MESSAGE value="3rd challenge for Java Masterclass on 2nd of December" />
+    <MESSAGE value="Star Pattern challenge.... for Java Masterclass on 2nd of December" />
+    <MESSAGE value="Parsing Values and Reading Console Input system.console() Overview" />
+    <MESSAGE value="Reading User Input Challenge" />
+    <MESSAGE value="Identifying Min and Max Values off users' input Challenge" />
+    <MESSAGE value="Basic of OOP in JAVA - Getters, Setters and Encapsulation" />
+    <MESSAGE value="Java Classes - first challenge" />
+    <MESSAGE value="Java - constructors" />
+    <MESSAGE value="Java - constructors challenge" />
+    <MESSAGE value="Java - POJO + record" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java - POJO + record" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="divisableCounter" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
